@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe Básica dos Seletores CSS</title>
+    <style>
+        /* Estilo geral do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Seções */
+        section {
+            background-color: #fff;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Seletor de elemento */
+        .exemplo {
+            color: green;
+            font-style: italic;
+        }
+
+        /* Seletor de classe */
+        .classe-exemplo {
+            color: blue;
+            font-weight: 600;
+        }
+
+        /* Seletor de ID */
+        #id-exemplo {
+            color: red;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        /* Seletor de grupo */
+        .grupo {
+            color: purple;
+            font-style: oblique;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sintaxe Básica dos Seletores CSS</h1>
+        <p>Aprenda a selecionar elementos HTML e aplicar estilos com CSS.</p>
+    </header>
+
+    <section>
+        <h2>1. Seletor de Elemento</h2>
+        <p>Seleciona todos os elementos de um tipo específico.</p>
+        <p class="exemplo">Exemplo: &lt;p&gt;Este parágrafo usa o seletor de elemento &lt;p&gt;&lt;/p&gt;</p>
+    </section>
+
+    <section>
+        <h2>2. Seletor de Classe</h2>
+        <p>Seleciona todos os elementos com uma determinada classe.</p>
+        <p class="classe-exemplo">Exemplo: .classe-exemplo { color: blue; }</p>
+        <p class="classe-exemplo">Este parágrafo é estilizado pela classe "classe-exemplo".</p>
+    </section>
+
+    <section>
+        <h2>3. Seletor de ID</h2>
+        <p>Seleciona um elemento único com um ID específico.</p>
+        <p id="id-exemplo">Exemplo: #id-exemplo { font-weight: bold; color: red; }</p>
+    </section>
+
+    <section>
+        <h2>4. Seletor de Grupo</h2>
+        <p>Seleciona múltiplos elementos de uma vez.</p>
+        <p class="grupo">Parágrafo 1 do grupo</p>
+        <p class="grupo">Parágrafo 2 do grupo</p>
+    </section>
+
+    <footer>
+        <p>Projeto 2 – Sintaxe básica dos seletores CSS</p>
+    </footer>
+</body>
+</html>
